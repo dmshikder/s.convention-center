@@ -29,7 +29,7 @@
         class="navbar navbar-light navbar-expand-lg bg-light d-flex justify-content-between"
       >
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">S.Convention Center</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -114,8 +114,8 @@
             <img src="images/banner-2.jpg" class="d-block" alt="..." />
             <!-- <div class="carousel-caption d-md-block"> -->
             <div class="carousel-content d-md-block">
-              <h3>The perfect venue for your next event</h3>
-              <p>
+              <h3 class="text-black">The perfect venue for your next event</h3>
+              <p class="text-black">
                 Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Nostrum totam fugiat voluptate
                 ducimus fugit atque commodi cupiditate aut illum aliquam, sed
@@ -297,7 +297,7 @@
                   </p>
                 </div>
               </div>
-              <div class="btn rounded-pill py-2 bg-light">
+              <div class="btn rounded-pill py-2 bg-light w-75">
                 <small class="text-primary fs-5">Choose plan</small>
               </div>
             </div>
@@ -343,14 +343,16 @@
                   </p>
                 </div>
               </div>
-              <div class="btn rounded-pill py-2 bg-light">
+              <div class="btn rounded-pill py-2 bg-light w-75">
                 <small class="text-primary fs-5">Choose plan</small>
               </div>
             </div>
           </div>
           <div class="col col-lg-3">
-            <div class="card h-100 border-0 bg-primary p-lg-5 pb-4 weddingPlus">
-              <div class="card-body">
+            <div
+              class="card h-100 border-0 bg-primary pb-4 weddingPlus shadow-lg"
+            >
+              <div class="card-body px-4">
                 <div class="text-white">
                   <h2>$800</h2>
                   <h5 class="card-title">Wedding plus</h5>
@@ -391,7 +393,7 @@
                   </p>
                 </div>
               </div>
-              <div class="btn rounded-pill py-2 bg-light">
+              <div class="btn rounded-pill py-2 bg-light w-75 mx-4">
                 <small class="text-primary fs-5"
                   >Choose plan
                   <span
@@ -444,7 +446,7 @@
                   </p>
                 </div>
               </div>
-              <div class="btn rounded-pill py-2 bg-light">
+              <div class="btn rounded-pill py-2 bg-light w-75">
                 <small class="text-primary fs-5">Choose plan</small>
               </div>
             </div>
@@ -457,8 +459,8 @@
       <section class="container pb-5">
         <h1>Frequently Asked Questions</h1>
         <div class="container px-4">
-          <div class="row gx-5">
-            <div class="col">
+          <div class="row gx-2">
+            <div class="col col-lg-6 col-md-12">
               <div class="p-3 border bg-light">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                   <div class="accordion-item">
@@ -569,9 +571,9 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="p-3 border bg-light">
-                <img src="images/people.png" alt="" />
+            <div class="col col-lg-6 col-md-12">
+              <div class="p-3 d-flex justify-content-center bg-light">
+                <img src="images/people.png" class="w-10" alt="" />
               </div>
             </div>
           </div>
@@ -582,15 +584,15 @@
 footer 
 ----------------------------  -->
 
-    <footer class="bg-black text-white py-5">
-      <div class="container px-4">
+    <!-- <footer class="bg-black text-white py-5">
+      <section class="container px-4">
         <div class="row gx-5">
-          <div class="col col-lg-9 d-flex align-items-center">
+          <div class="col col-lg-9 col-md-12 d-flex align-items-center">
             <div>
               <p>&copy; 2022 shikder convention center. All rights reserved</p>
             </div>
           </div>
-          <div class="col col-lg-3">
+          <div class="col col-lg-3 col-md-12">
             <div>
               <div><h5>Get the App</h5></div>
               <div>
@@ -650,8 +652,70 @@ footer
             </div>
           </div>
         </div>
-      </div>
+      </section>
+    </footer> -->
+
+    <!-- new footer  -->
+
+    <footer>
+      <section class="container-fluid p-5 bg-black">
+        <div
+          class="row row-cols-1 row-cols-md-3 g-4 justify-content-between align-items-center text-white"
+        >
+          <div class="col col-lg-3">
+            <div class="card h-100 border-0">
+              <div class="bg-black">
+                <p>
+                  &copy; 2022 shikder convention center. All rights reserved
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-3">
+            <div class="card h-100 border-0">
+              <div class="bg-black">
+                <h3>Get the app</h3>
+                <div>
+                  <div
+                    class="d-flex flex-row border border-light align-items-center justify-content-evenly rounded-3 m-3"
+                  >
+                    <div><i class="fa-brands fa-apple fs-1"></i></div>
+                    <div>
+                      <p class="fs-5">Download on the</p>
+                      <h3 class="fs-2">
+                        <a
+                          class="text-decoration-none text-white"
+                          target="_blank"
+                          href="https://apps.apple.com/us/app/pj-masks-moonlight-heroes/id1113977625"
+                          >App store</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex flex-row border border-light align-items-center justify-content-evenly rounded-3 m-3"
+                  >
+                    <div><i class="fa-brands fa-apple fs-1"></i></div>
+                    <div>
+                      <p class="fs-5">Get it on</p>
+                      <h3 class="fs-2">
+                        <a
+                          class="text-decoration-none text-white"
+                          target="_blank"
+                          href="https://play.google.com/store/apps/details?id=com.instagram.lite"
+                          >Google play</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
+
     <!-- - - - - - - - - - - - - - - 
     JS bootstrap 
     - - - - - - - -- -  - --  -->
