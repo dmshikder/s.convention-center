@@ -7,3 +7,16 @@
   width: 100%;
   text-align: center;
 }
+.body {
+  font-family: "Poppins", sans-serif;
+}
+.weddingPlus {
+  position: absolute;
+  bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .weddingPlus {
+    position: absolute;
+    bottom: 0px;
+  }
+}
